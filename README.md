@@ -1,7 +1,5 @@
 # Workindia_task
-I have created all the required api and I have use mySQL for database. 
-to run and test the api I have used Postman.
-Screenshots are given below.
+Node.js application using the Express framework for building a web API. This API includes functionality for user registration, login, creating matches, getting match schedules, getting match details, adding players to teams, and getting player statistics. Additionally, it uses JWT (JSON Web Tokens) for authentication and a MySQL database for storing data.
 
 ## Introduction
 
