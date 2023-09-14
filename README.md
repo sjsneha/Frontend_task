@@ -1,7 +1,11 @@
 # Workindia_task
-I have created all the required api using NODEJS and I have use mySQL for database. 
+I have created all the required api and I have use mySQL for database. 
 to run and test the api I have used Postman.
 Screenshots are given below.
+
+## Introduction
+
+This project was created as part of a task for Work India. It's a simple web application built using Node and Express that displays boxes by fetching data from the given API
 
 
 ## Screenshot of Website
