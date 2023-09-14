@@ -1,9 +1,12 @@
 # Workindia_task
 Node.js application using the Express framework for building a web API. This API includes functionality for user registration, login, creating matches, getting match schedules, getting match details, adding players to teams, and getting player statistics. Additionally, it uses JWT (JSON Web Tokens) for authentication and a MySQL database for storing data.
 
+The config.js file you've provided contains the configuration settings for your application, including database connection details and a JWT secret key.
+
 ## Introduction
 
 This project was created as part of a task for Work India. It's a simple web application built using Node and Express that displays boxes by fetching data from the given API
+
 
 
 ## Screenshot of Website
