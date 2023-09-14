@@ -7,7 +7,25 @@ The config.js file you've provided contains the configuration settings for your 
 
 This project was created as part of a task for Work India. It's a simple web application built using Node and Express that displays boxes by fetching data from the given API
 
-
+## Implementation Details
+Express.js Framework: Used the Express.js framework to build a web server, handle HTTP requests, and define API routes.
+Database Integration:  connects to a MySQL database for data storage.
+User Registration and Authentication:
+Users can register using the /register POST route. User information (username, password, email) is received in the request body.
+Match Management:
+Matches can be created by administrators using the /matches POST route.
+Team and Player Management:
+Players can be added to teams by administrators using the /teams/:teamId/players POST route.
+JWT Authentication Middleware:
+Middleware function authenticateToken is used to protect certain routes (e.g., match creation and player addition routes) with JWT authentication.
+Server Configuration and Start:
+The server listens on a specified port (defaulting to 3000 or using the process.env.PORT variable).
+Security Considerations:
+Sensitive information such as database credentials and JWT secret keys are stored in a separate configuration file (config.js) and should be kept secure.
+Validation and Error Handling:
+There are basic validation checks for required fields in request bodies.
+Room for Improvement:
+In a production environment, additional security measures, input validation, and error handling improvements should be considered.
 
 ## Screenshot of Website
 ![image](https://github.com/sjsneha/Workindia_task/assets/77097698/4dd550b5-e51f-46ef-8292-ca71f13c2f4b)
