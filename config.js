@@ -3,7 +3,7 @@ module.exports = {
       host: 'localhost',
       user: 'root',
       password: 'root',
-      database: 'sam',
+      database: 'Workindia',
     },
     jwtSecret: '329892382392929',
   };
